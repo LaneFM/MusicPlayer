@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Google+Sans+Flex:opsz,wght@6..144,1..1000&family=Google+Sans:ital,opsz,wght@0,17..18,400..700;1,17..18,400..700&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    min-height: 100vh;
+
+    font-family: "Google Sans", sans-serif;
+
+    background:
+        radial-gradient(
+            circle at 20% 10%,
+            #2c7185 0%,
+            transparent 35%
+        ),
+        linear-gradient(
+            145deg,
+            #174d67 0%,
+            #0b2948 100%
+        );
+
+    color: white;
+}
+
+
+/* =========================
+   APP
+========================= */
+
+.music-app {
+    width: 100%;
+    max-width: 402px;
+    min-height: 100vh;
+
+    margin: 0 auto;
+
+    padding: 35px 25px;
+    display: flex;
+    flex-direction: column;
+
+}
